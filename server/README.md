@@ -44,6 +44,11 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## GraphQL Playground
+
+The GraphQL endpoint is served at `/graphql` with Apollo Playground enabled for local testing. After starting the server, open
+`http://localhost:3000/graphql` in a browser to explore the schema, run queries, and share collections with the front-end team.
+
 ## Run tests
 
 ```bash
